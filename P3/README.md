@@ -1,4 +1,4 @@
-# Práctica 2
+# Práctica 3
 ## Tarea 1
 ### Configurar una máquina e instalar el nginx como balanceador de carga
 Para realizar esta tarea primeramente introduciremos las siguientes ordenes:
