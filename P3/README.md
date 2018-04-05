@@ -116,6 +116,7 @@ Y de nuevo, **matamos el servicio apache** y configuramos POUND, para ello modif
 *etc/pound/pound.cfg*
 
 ![img16](https://github.com/NonoK32/SWAP1718/blob/master/P3/confPOUND.png)
+![img17](https://github.com/NonoK32/SWAP1718/blob/master/P3/confPOUND2.png)
 
 
 *etc/default/pound*
