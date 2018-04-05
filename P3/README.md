@@ -42,7 +42,7 @@ Para que queden de la siguiente manera, como se puede ver en las siguientes imag
 Una vez hecho esto iniciamos el servicio de NGINX, con la siguiente instrucción:
 
 ```bash
-service nginx stop
+service nginx start
 ```
 
 **IMPORTANTE**:Tanto NGINX, como HAPROXY, y POUND usaran la dirección *192.168.56.160*
@@ -116,7 +116,7 @@ Y de nuevo, **matamos el servicio apache** y configuramos POUND, para ello modif
 *etc/pound/pound.cfg*
 
 ![img16](https://github.com/NonoK32/SWAP1718/blob/master/P3/confPOUND.png)
-![img17](https://github.com/NonoK32/SWAP1718/blob/master/P3/confPOUND2.png)
+
 
 *etc/default/pound*
 
@@ -128,9 +128,9 @@ Y ya podriamos lanzar peticiones para comprobar que funciona.
 
 Además le realizaremos la prueba de carga, de igual manera que a NGINX y HAPROXY.
 
-![img20](https://github.com/NonoK32/SWAP1718/blob/master/P3/confPOUND.png)
-![img21](https://github.com/NonoK32/SWAP1718/blob/master/P3/confPOUND2.png)
-![img21](https://github.com/NonoK32/SWAP1718/blob/master/P3/confPOUND3.png)
+![img20](https://github.com/NonoK32/SWAP1718/blob/master/P3/abPOUND.png)
+![img21](https://github.com/NonoK32/SWAP1718/blob/master/P3/abPOUND2.png)
+![img21](https://github.com/NonoK32/SWAP1718/blob/master/P3/abPOUND3.png)
 
 Podemos comprobar que el tiempo medio por petición es peor que NGINX y HAPROXY.
 
